@@ -2,6 +2,18 @@
 **_Italy Shop_**
 
 
+ confirm("Comfirm text", function(done){
+        //..
+    }, { 
+        "title" : "Wellcome",
+        "done": {
+                "text": ":)",
+        },
+        "cancel": {
+            "text" : ":(",
+            "default": true
+        }
+    })
 *Dreess
 
 *Shirt
